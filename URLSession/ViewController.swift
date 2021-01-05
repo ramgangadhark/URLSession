@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        doNothing()
         // Do any additional setup after loading the view.
     }
     
@@ -41,6 +42,11 @@ class ViewController: UIViewController {
                         
                     })
                     task.resume()
+    }
+    
+    func doNothing()
+    {
+        print("Do Nothing")
     }
     
 
